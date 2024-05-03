@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background:#002339;
+    color:blue;
+}
+.container{
+    margin: 2%;
+    width:90%;
+    max-width: 700px;
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+.container h1 span{
+    color:#019f55;
+    padding-bottom:7px; 
+}
+.display input{
+    border:0;
+    outline:0;
+    font-size:24px;
+}
+.container button img{
+    width:28px;
+    margin-right:10px;
+} 
+.container button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    color:#fff;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover{
+    color: blue;
+    background-color: red;
+}
+input:focus-visible {
+    outline: 0;
+}
+
+.main {
+    background-color: #3498db;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+    background: #2980b9;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+#pass-box {
+    width: 100%;
+    display: block;
+    background-color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+label {
+    user-select: none;
+}
+
+#btn {
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}

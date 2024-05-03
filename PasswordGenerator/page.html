@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PasswordGenerator</title>
+    <link rel="stylesheet" href="custom.css">
+    <style>
+    h1 span {
+    width: max-content;
+    font-size: 72px;
+    position: relative;
+    cursor: pointer;
+    margin: 100px auto;
+}
+
+h1 span::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: #019f55;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+
+h1 span:hover::after {
+    transform: scaleX(1);
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a <br><span>Random Password</span></h1>
+        <div class="display">
+        </div>
+        <a href="index.html">
+        <button><img src="images/generate.png">Generate Password</button>
+    </a>
+    </div>
+    
+    
+</body>
+</html>
